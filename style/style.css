@@ -159,9 +159,9 @@
 .txt-des {
   color: rgba(14, 14, 14, 0.7);
   font-family: Fira Sans;
-  font-size: 12.8px;
+  font-size: 16px;
   font-weight: 400;
-  line-height: 19.2px;
+  line-height: 24px;
   letter-spacing: 0%;
   text-align: left;
 }
@@ -182,8 +182,8 @@
   gap: 10px;
   width: 1180px;
 }
-.g{
-    margin-bottom: 16px;
+.g {
+  margin-bottom: 16px;
 }
 .vision-card-content {
   display: flex;
@@ -201,6 +201,37 @@
   align-items: start;
   padding: 25.6px;
   gap: 16px;
+}
+.vision-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 38;
+  padding: 11px 20px 11px 20px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: rgb(84, 144, 245);
+  color: white;
+  border: none;
+  font-family: Fira Sans;
+  font-size: 14.4px;
+  font-weight: 600;
+  line-height: 17.6px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.vision-btn:hover {
+  border: 1px solid rgb(9, 161, 92);
+  color: red;
+  cursor: pointer;
+  background: none;
+}
+.btn-bg-green {
+  background: rgb(9, 161, 92);
+}
+.btn-bg-yellow {
+  background: rgb(255, 194, 57);
 }
 .bg-card1 {
   background: rgba(84, 144, 245, 0.2);
@@ -231,33 +262,140 @@
   display: flex;
   flex-direction: column;
 }
-.adviser-txt-p{
-    color: rgba(14, 14, 14, 0.8);
-font-family: Fira Sans;
-font-size: 12px;
-font-weight: 400;
-line-height: 19.2px;
-letter-spacing: 0%;
-text-align: left;
-margin: 12px 0;
+.adviser-txt-p {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 12px 0;
 }
-.adviser-txt-m{
-    color: rgba(14, 14, 14, 0.8);
+.adviser-txt-m {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 4px 0;
+}
+.adviser-txt-sm {
+  color: rgba(14, 14, 14, 0.6);
+  font-family: Fira Sans;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: 0%;
+  text-align: left;
+  margin: 4px 0;
+}
+.opinion {
+  height: 384px;
+  margin: 0 160px;
+  padding-bottom: 80px;
+}
+.opinion-table {
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  width: 1100px;
+  height: 327px;
+  padding: 48px;
+}
+tr {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  background: rgb(198, 228, 214);
+}
+.opinion-table td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.news {
+  padding-top: 80px;
+  margin: 0 160px;
+  height: 1406px;
+  padding-bottom: 80px;
+}
+.news-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+}
+.news-card-container{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+.news-card {
+  width: 1100px;
+  height: 321px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: start;
+  gap: 32px;
+  padding: 48px;
+  border-radius: 24px;
+  background: rgb(255, 255, 255);
+}
+.img {
+  border-radius: 20px;
+}
+.news-card-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  gap: 12px;
+}
+.n-time {
+  display: flex;
+}
+.news-txt-desc{
+    color: rgba(14, 14, 14, 0.7);
 font-family: Fira Sans;
 font-size: 16px;
-font-weight: 600;
-line-height: 20px;
-letter-spacing: 0%;
-text-align: left;
-margin: 4px 0;
-}
-.adviser-txt-sm{
-    color: rgba(14, 14, 14, 0.6);
-font-family: Fira Sans;
-font-size: 13px;
 font-weight: 400;
-line-height: 20px;
+line-height: 24px;
 letter-spacing: 0%;
 text-align: left;
-margin: 4px 0;
+}
+.news-btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 38;
+  padding: 12px 24px 12px 24px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background: rgb(0, 106, 80);
+  border: none; 
+  color: rgb(255, 255, 255);
+  font-family: Fira Sans;
+  font-size: 14.4px;
+  font-weight: 600;
+  line-height: 17.6px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.news-btn:hover{
+    border: 1px solid rgb(0, 106, 80);
+    background: white;
+    color: rgb(0, 106, 80);
+    cursor: pointer;
+}
+.donate{
+    display: flex;
+    flex-direction: column;
+    margin: 0 160px;
+}
+.donate .donate-txt{
+    justify-content: center;
 }
