@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    background: rgb(245, 245, 245);
+    padding: 19.2px 128px;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-txt{
+color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 25px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0%;
+text-align: left;
+}
+.nav-btn{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+gap: 38;
+padding: 12px 24px 12px 24px;
+box-sizing: border-box;
+border: 1px solid rgb(0, 106, 80);
+border-radius: 8px;
+color: rgb(0, 106, 80);
+font-family: Fira Sans;
+font-size: 14.4px;
+font-weight: 600;
+line-height: 17.6px;
+letter-spacing: 0%;
+text-align: left;
+}
