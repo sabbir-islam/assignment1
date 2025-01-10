@@ -6,11 +6,14 @@
 }
 :root {
   --bg-green: rgb(0, 106, 80);
+  --bg-light-green: rgb(198, 228, 214);
+  --bg-primary: rgb(245, 245, 245);
 }
 
 .header {
   background: rgb(245, 245, 245);
   padding: 19.2px 128px;
+  padding-bottom: 80px;
 }
 .nav {
   display: flex;
@@ -67,6 +70,8 @@
   justify-content: start;
   align-items: start;
   gap: 18px;
+  max-width: 497px;
+  height: 260.8px;
 }
 .banner-txt-s {
   color: rgba(14, 14, 14, 0.5);
@@ -98,4 +103,64 @@
   line-height: 17.6px;
   letter-spacing: 0%;
   text-align: left;
+}
+.banner-btn:hover{
+    border: 1px solid var(--bg-green);
+    background: var(--bg-light-green);
+    cursor: pointer;
+}
+.main{
+    background: var(--bg-primary);
+}
+.pillars{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items:start;
+    height: 324px;
+    gap: 25.6px;
+    margin: 0 160px;
+}
+.txt-tittle{
+    color: rgb(14, 14, 14);
+font-family: Fira Sans;
+font-size: 32px;
+font-weight: 700;
+line-height: 38.4px;
+letter-spacing: 0%;
+text-align: left;
+}
+.card-content{
+    display: flex;
+    gap: 24px;
+}
+.pillars-card{
+border: 1px solid rgba(14, 14, 14, 0.15);
+border-radius: 16px;
+width: 241px;
+height: 195px;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: flex-start;
+padding: 19px;
+gap: 16px;
+}
+.p-card-tittle{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 700;
+line-height: 19.2px;
+letter-spacing: 0%;
+text-align: left;
+}
+.p-card-des{
+    color: rgba(14, 14, 14, 0.7);
+font-family: Fira Sans;
+font-size: 12.8px;
+font-weight: 400;
+line-height: 19.2px;
+letter-spacing: 0%;
+text-align: left;
 }
