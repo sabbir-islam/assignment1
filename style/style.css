@@ -327,10 +327,10 @@ th {
   justify-content: start;
   align-items: start;
 }
-.news-card-container{
-    display: flex;
-    flex-direction: column;
-    gap: 24px;
+.news-card-container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
 }
 .news-card {
   width: 1100px;
@@ -357,14 +357,14 @@ th {
 .n-time {
   display: flex;
 }
-.news-txt-desc{
-    color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0%;
-text-align: left;
+.news-txt-desc {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .news-btn {
   display: flex;
@@ -376,7 +376,7 @@ text-align: left;
   box-sizing: border-box;
   border-radius: 8px;
   background: rgb(0, 106, 80);
-  border: none; 
+  border: none;
   color: rgb(255, 255, 255);
   font-family: Fira Sans;
   font-size: 14.4px;
@@ -385,17 +385,59 @@ text-align: left;
   letter-spacing: 0%;
   text-align: left;
 }
-.news-btn:hover{
-    border: 1px solid rgb(0, 106, 80);
-    background: white;
-    color: rgb(0, 106, 80);
+.news-btn:hover {
+  border: 1px solid rgb(0, 106, 80);
+  background: white;
+  color: rgb(0, 106, 80);
+  cursor: pointer;
+}
+.donate {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 160px;
+  gap: 20px;
+  padding-bottom: 80px;
+}
+.donate .donate-txt {
+  justify-content: center;
+}
+.tk-card-container {
+  display: flex;
+  gap: 24px;
+}
+.txt-center {
+  text-align: center;
+}
+.tk-card {
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  width: 240px;
+  height: 128px;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.tk-card:hover{
+    background: rgb(198, 228, 214);
     cursor: pointer;
 }
-.donate{
-    display: flex;
-    flex-direction: column;
-    margin: 0 160px;
-}
-.donate .donate-txt{
-    justify-content: center;
+.input {
+  box-sizing: border-box;
+  background: rgb(255, 255, 255);
+  width: 1032px;
+  height: 64px;
+  padding: 20px 40px;
+  border: none;
+  color: rgba(14, 14, 14, 0.3);
+font-family: Fira Sans;
+font-size: 20px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0%;
+  text-align: center;
 }
