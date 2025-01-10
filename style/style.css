@@ -104,63 +104,160 @@
   letter-spacing: 0%;
   text-align: left;
 }
-.banner-btn:hover{
-    border: 1px solid var(--bg-green);
-    background: var(--bg-light-green);
-    cursor: pointer;
+.banner-btn:hover {
+  border: 1px solid var(--bg-green);
+  background: var(--bg-light-green);
+  cursor: pointer;
 }
-.main{
-    background: var(--bg-primary);
+.main {
+  background: var(--bg-primary);
 }
-.pillars{
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items:start;
-    height: 324px;
-    gap: 25.6px;
-    margin: 0 160px;
+.pillars {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  height: 324px;
+  gap: 25.6px;
+  margin: 0 160px;
+  padding-bottom: 80px;
 }
-.txt-tittle{
-    color: rgb(14, 14, 14);
-font-family: Fira Sans;
-font-size: 32px;
-font-weight: 700;
-line-height: 38.4px;
-letter-spacing: 0%;
-text-align: left;
+.txt-tittle {
+  color: rgb(14, 14, 14);
+  font-family: Fira Sans;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 38.4px;
+  letter-spacing: 0%;
+  text-align: left;
 }
-.card-content{
-    display: flex;
-    gap: 24px;
+.card-content {
+  display: flex;
+  gap: 24px;
 }
-.pillars-card{
-border: 1px solid rgba(14, 14, 14, 0.15);
-border-radius: 16px;
-width: 241px;
-height: 195px;
-display: flex;
-flex-direction: column;
-justify-content: flex-start;
-align-items: flex-start;
-padding: 19px;
-gap: 16px;
+.pillars-card {
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  width: 241px;
+  height: 195px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 19px;
+  gap: 16px;
 }
-.p-card-tittle{
+.p-card-tittle {
+  color: rgba(14, 14, 14, 0.8);
+  font-family: Fira Sans;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19.2px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.txt-des {
+  color: rgba(14, 14, 14, 0.7);
+  font-family: Fira Sans;
+  font-size: 12.8px;
+  font-weight: 400;
+  line-height: 19.2px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.vision {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  max-width: 780px;
+  margin: 0 160px;
+  gap: 32px;
+  padding-bottom: 80px;
+}
+.vision-txt {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 1180px;
+}
+.g{
+    margin-bottom: 16px;
+}
+.vision-card-content {
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  gap: 24px;
+}
+.vision-card {
+  border-radius: 16px;
+  width: 328.5px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  padding: 25.6px;
+  gap: 16px;
+}
+.bg-card1 {
+  background: rgba(84, 144, 245, 0.2);
+}
+.bg-card2 {
+  background: rgb(198, 228, 214);
+}
+.bg-card3 {
+  background: rgb(247, 235, 207);
+}
+.adviser {
+  width: 1200px;
+  height: 204px;
+  box-sizing: border-box;
+  border: 1px solid rgba(14, 14, 14, 0.15);
+  border-radius: 16px;
+  background: rgb(255, 255, 255);
+  padding: 48px;
+  gap: 12px;
+}
+.adviser-txt {
+  width: 1100px;
+  height: 200px;
+  background-image: url("../images/quote-bg.png");
+  background-size: 40px 40px;
+  background-repeat: no-repeat;
+  background-position: top left;
+  display: flex;
+  flex-direction: column;
+}
+.adviser-txt-p{
     color: rgba(14, 14, 14, 0.8);
 font-family: Fira Sans;
-font-size: 16px;
-font-weight: 700;
-line-height: 19.2px;
-letter-spacing: 0%;
-text-align: left;
-}
-.p-card-des{
-    color: rgba(14, 14, 14, 0.7);
-font-family: Fira Sans;
-font-size: 12.8px;
+font-size: 12px;
 font-weight: 400;
 line-height: 19.2px;
 letter-spacing: 0%;
 text-align: left;
+margin: 12px 0;
+}
+.adviser-txt-m{
+    color: rgba(14, 14, 14, 0.8);
+font-family: Fira Sans;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+margin: 4px 0;
+}
+.adviser-txt-sm{
+    color: rgba(14, 14, 14, 0.6);
+font-family: Fira Sans;
+font-size: 13px;
+font-weight: 400;
+line-height: 20px;
+letter-spacing: 0%;
+text-align: left;
+margin: 4px 0;
 }
