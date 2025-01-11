@@ -110,6 +110,7 @@
 .banner-btn:hover {
   border: 1px solid var(--bg-green);
   background: var(--bg-light-green);
+  color: rgb(0, 106, 80);
   cursor: pointer;
 }
 .main {
@@ -226,7 +227,6 @@
 }
 .vision-btn:hover {
   border: 1px solid rgb(9, 161, 92);
-  color: red;
   cursor: pointer;
   background: none;
 }
