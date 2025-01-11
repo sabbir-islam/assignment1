@@ -19,7 +19,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 90px;
+  padding-right: 40px;
+  padding-left: 15px;
 }
 .nav-txt {
   color: rgb(14, 14, 14);
@@ -56,10 +57,11 @@
 .banner {
   border-radius: 24px;
   background: rgb(198, 228, 214);
-  padding: 64px 80px;
+  padding: 64px 100px;
   width: 1024px;
   height: 448px;
   margin-top: 20px;
+  margin-left: 10px;
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -140,12 +142,12 @@
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
   width: 241px;
-  height: 195px;
+  height: 210px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: flex-start;
-  padding: 19px;
+  padding: 21px;
   gap: 16px;
 }
 .p-card-tittle {
@@ -245,7 +247,7 @@
 }
 .adviser {
   width: 1200px;
-  height: 204px;
+  height: 224px;
   box-sizing: border-box;
   border: 1px solid rgba(14, 14, 14, 0.15);
   border-radius: 16px;
@@ -266,7 +268,7 @@
 .adviser-txt-p {
   color: rgba(14, 14, 14, 0.8);
   font-family: Fira Sans;
-  font-size: 12px;
+  font-size: 14px;
   font-weight: 400;
   line-height: 22px;
   letter-spacing: 0%;
@@ -402,6 +404,7 @@ text-align: left;
 }
 .n-time {
   display: flex;
+  gap: 15px;
 }
 .news-txt-desc {
   color: rgba(14, 14, 14, 0.7);
@@ -542,6 +545,7 @@ text-align: left;
   background-color: rgb(198, 228, 214);
   border: 2px solid rgb(0, 106, 80);
   cursor: pointer;
+  color: rgb(0, 106, 80);
 }
 .p-btm {
   padding-bottom: 80px;
